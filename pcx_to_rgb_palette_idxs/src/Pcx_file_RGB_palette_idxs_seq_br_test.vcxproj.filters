@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="layer0\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer0\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer1\Pcx_header_r.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer2\Pcx_file_RGB_palette_idxs_seq_br.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\Pcx_file_RGB_palette_idxs_seq_br_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer1\File_seq_block_r.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layer0\Errors_env.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layer0\IBlock_access.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer0\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer0\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer0\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer0\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer1\File_seq_block_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer1\ISeq_block_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer1\Pcx_header_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer1\Seq_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer2\IRGB_palette_idxs_seq_block_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer2\Pcx_file_RGB_palette_idxs_seq_br.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer2\Seq_palette_RGB_idx_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="layer0\Errors_env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
