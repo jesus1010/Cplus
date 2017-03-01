@@ -17,4 +17,7 @@ In this code I'm testing a multiplatform (raspberry pi, msys2, cygwin, Visual st
 
 A layering code struct with a vertical data flow.
 
+Code with tolerance for error recovery.
+
+
 
