@@ -5,7 +5,7 @@ In this code I'm testing a multiplatform (raspberry pi, msys2, cygwin, Visual st
 
 -.Multithreading.
 
--.Flush line to line.
+-.Config for flush line by line.
 
 -.Console and file logging.
 
